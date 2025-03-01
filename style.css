@@ -1,0 +1,17 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px;
+}
+.navlinks{
+    display: flex;
+    gap: 15px;
+    color: hsl(0,0%,75%);
+    list-style: none;
+}
+.navlinks a{
+    text-decoration: none;
+    color: inherit;
+}
